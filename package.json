@@ -1,0 +1,31 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node": "^14.17.6",
+    "@graphql-tools/schema": "^8.2.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql-server-express": "^1.4.1",
+    "graphql-subscriptions": "^1.2.1",
+    "graphql-tools": "^8.2.0",
+    "graphql-yoga": "^1.18.3",
+    "heroku": "^7.59.0",
+    "mongoose": "^6.0.5",
+    "subscriptions-transport-ws": "^0.9.19"
+  },
+  "engines": {
+    "node": "^14.17.6",
+    "npm": "^6.14.15"
+  }
+}
